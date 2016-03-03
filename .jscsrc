@@ -1,0 +1,23 @@
+{
+  "fileExtensions": [".js"],
+
+  "requireSemicolons": true,
+  "requireParenthesesAroundIIFE": true,
+  "maximumLineLength": 120,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "validateQuoteMarks": true,
+  "validateParameterSeparator": ", ",
+  "requireBlocksOnNewline": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireCurlyBraces": true,
+
+  "jsDoc": {
+    "checkParamNames": true,
+    "requireParamTypes": true,
+    "checkRedundantParams": true,
+    "checkReturnTypes": true,
+    "checkRedundantReturns": true,
+    "checkTypes": "capitalizedNativeCase"
+  }
+}
